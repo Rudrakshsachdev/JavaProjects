@@ -59,5 +59,7 @@ public class FindElement {
 
         System.out.println("Largest element: " + Largest(arr));
         System.out.println("Smallest element: " + Smallest(arr));
+
+        sc.close();
     }
 }
