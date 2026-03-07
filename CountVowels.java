@@ -3,7 +3,8 @@
 
 public class CountVowels {
     public static void main(String[] args) {
-        int count = 0;
+        int Vowelcount = 0;
+        int Consonantcount = 0;
 
         String vowels = "aeiouAEIOU";
 
@@ -15,10 +16,13 @@ public class CountVowels {
 
             // this if block will check if the character is a vowel or not
             if (vowels.contains(String.valueOf(test.charAt(i)))) {
-                count++;
+                Vowelcount++;
+            } else {
+                Consonantcount++;
             }
         }
 
-        System.out.println("Number of vowels: " + count);
+        System.out.println("Number of vowels: " + Vowelcount);
+        System.out.println("Number of consonants: " + Consonantcount);
     }
 }
